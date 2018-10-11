@@ -8,15 +8,18 @@
         
             <!-- Font Awesome CSS Icons (For cool glyphicons) -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         </head>
         <body>
             <!-- Style to fix the issue of text extending past card length -->
-        <header class= "jumbotron">
+        <header class= "jumbotron text-center" >
             <i class="fa fa-newspaper-o"></i>New York Times Search
         </header>
         <div class= "container">
-            search Parameter
             <div>
+                Search Parameter
+            </div>
+            <div >
                 <form>
                     Search Term: <br>
                     <input type = "text" name = "searchterm" value ="" id= "searchTerm"><br>
@@ -27,12 +30,18 @@
                     End Year(Optional): <br>
                     <input type = "text" name = "searchterm" value ="" id= "endYear"><br>
                     <button type="submit"><i class="fa fa-search"></i> search</button>
-                    <button type="reset"><i class="glyphicons glyphicons-trash"></i>Clear Results</button>
+                    <button type="reset"><i class="glyphicons-trash"></i>Clear Results</button>
                 </form>
 
             </div>
         </div>
-
+        <div class="row bg-light border">
+                <div class="col-sm-12" >Top Articles</div>
+              </div>
+              <div class="row bg-white border mh-100">
+                <div class="col-sm-12">empty</div>
+ 
+              </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
         <script src="assets/js/app.js"></script>

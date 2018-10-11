@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>New York Times Search</title>
+            <!-- Bootstrap CSS CDN  -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+        
+            <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+        </head>
+        <body>
+            <!-- Style to fix the issue of text extending past card length -->
+        <header class= "jumbotron">
+            <i class="fa fa-newspaper-o"></i>New York Times Search
+        </header>
+        <div class= "container">
+            search Parameter
+            <div>
+                <form>
+                    Search Term: <br>
+                    <input type = "text" name = "searchterm" value ="" id= "searchTerm"><br>
+                    Number of Records to Retrive: <br>
+                    <input type = "text" name = "Records" value ="" id = "records"><br>
+                    Start Year(Optional): <br>
+                    <input type = "text" name = "startYear" value ="" id = "startYear"><br>
+                    End Year(Optional): <br>
+                    <input type = "text" name = "searchterm" value ="" id= "endYear"><br>
+                    <button type="submit"><i class="fa fa-search"></i> search</button>
+                    <button type="reset"><i class="glyphicons glyphicons-trash"></i>Clear Results</button>
+                </form>
+
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+        <script src="assets/js/app.js"></script>
+        </body>
+    </html>

@@ -1,6 +1,13 @@
-.card-body a {
-    word-break: break-all;
-  }
+#searchTerm {
+    width : 100%;
+}
 
-  .articleHeadline {
-    line-height: 1.5;
+#records {
+    width : 100%;
+}
+#startYear {
+    width: 100%
+}
+#endYear {
+    width: 100%
+}
